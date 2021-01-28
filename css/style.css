@@ -1,0 +1,271 @@
+/*General*/
+* {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.container {
+	width: 1168px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.section-heading {
+	margin-left: 40px;
+	margin-bottom: 30px;
+	margin-top: 0;
+	font-size: 32px;
+}
+
+/*Header*/
+.header {
+	min-height: 180px;
+}
+
+.container-header {
+	display: flex;
+	height: 110px;
+	align-items: center;
+}
+
+.container-header-tel {
+	margin-left: 25px;
+	font-size: 22px;
+	font-weight: bold;
+	color: #666666;
+}
+
+.container-header-personalarea-link {
+	margin-left: auto;
+}
+
+.header-nav-container {
+	display: flex;
+	height: 70px;
+	justify-content: space-between;
+}
+
+.header-nav-list {
+	display: flex;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+}
+
+.header-nav-item:not(:last-child) {
+	margin-right: 50px;
+}
+
+.header-nav-search {
+	position: relative;
+	left: 115px;
+	width: 300px;
+	height: 50px;
+	margin: auto;
+}
+
+.header-nav-search-input {
+	width: 100%;
+	height: 100%;
+	padding-left: 10px;
+	border-radius: 25px;
+	border: 1px solid white;
+	background-color: #f6f6f6;
+}
+
+.header-nav-search-btn {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 10px;
+	width: 30px;
+	height: 30px;
+}
+
+.form-btn {
+	display: inline-block;
+	padding: 25px 25px;
+	min-width: 160px;
+	min-height: 60px;
+	border-radius: 12px;
+	font-size: 16px;
+	text-align: center;
+	line-height: 1;
+	color: white;
+	background-color: #cc9933;
+	cursor: pointer;
+}
+
+.form-btn-info-number {
+	margin-right: 5px;
+	font-size: 16px;
+	color: #ce9f40;
+}
+
+/*Section form-preview*/
+.section-form-preview {
+	padding-top: 60px;
+}
+
+.section-form {
+	display: flex;
+	flex-direction: column;
+}
+
+.section-form-items {
+	margin-bottom: 20px;
+}
+
+.form-btn-info {
+	margin-left: 30px;
+}
+
+.container-form-preview {
+	display: flex;
+	min-height: 610px;
+	justify-content: space-between;
+}
+
+.form-content {
+	margin-right: 50px;
+	flex: 1 1 50%;
+}
+
+.preview-content {
+	flex: 1 1 50%;
+}
+
+/*AboutUs*/
+.section-aboutus {
+	padding-top: 60px;
+}
+
+.container-aboutus {
+	min-height: 300px;
+}
+
+.section-aboutus-description {
+	max-width: 895px;
+	margin-left: 40px;
+}
+
+/*Services*/
+.section-services {
+	padding-top: 60px;
+}
+
+.section-services-list {
+	display: flex;
+	max-width: 1168px;
+	flex-wrap: wrap;
+}
+
+.section-services-item {
+	flex: 1 1 570px;
+	min-height: 325px;
+}
+
+.section-services-item:not(:nth-child(2n)) {
+	margin-right: 25px;
+}
+
+.section-services-item:not(:nth-last-child(-n+2)) {
+	margin-bottom: 25px;
+}
+
+.section-services-item-container {
+	margin: 200px 130px 40px 40px;
+}
+
+/*Advantages*/
+.section-advantages {
+	padding-top: 60px;
+}
+
+.section-advantages-list {
+	display: flex;
+	max-width: 1168px;
+	flex-wrap: wrap;
+}
+
+.section-advantages-item {
+	flex: 0 1 275px;
+	min-height: 275px;
+}
+
+.section-advantages-item:not(:nth-child(4n)) {
+	margin-right: 22px;
+}
+
+.section-advantages-item:not(:nth-last-child(-n+4)) {
+	margin-bottom: 24px;
+}
+
+.section-hotel-item-btn {
+	display: inline-block;
+	padding: 10px 20px;
+	border: 2px solid #cc9933;
+	border-radius: 12px;
+	min-width: 100px;
+	min-height: 40px;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 1;
+	text-align: center;
+	color: #cc9933;
+	background-color: none;
+	cursor: pointer;
+}
+
+/*Hotels*/
+.section-hotels {
+	padding-top: 60px;
+}
+
+.section-hotels-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.section-hotels-item {
+	flex: 1 1 375px;
+	min-height: 440px;
+}
+
+.section-hotels-item:not(:nth-child(3n)) {
+	margin-right: 20px;
+}
+
+.section-hotels-item:not(:nth-last-child(-n+3)) {
+	margin-bottom: 25px;
+}
+
+.section-hotel-preview {
+	width: 370;
+	height: 440px;
+	background-image: url(/img/hotel_background_preview.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+}
+
+.section-hotel-preview-link {
+	display: inline-block;
+	position: relative;
+	top: 370px;
+	bottom: 60px;
+	left: 40px;
+	font-size: 22px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: white;
+}
